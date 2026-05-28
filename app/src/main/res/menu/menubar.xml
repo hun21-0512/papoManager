@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuHome"
+        android:icon="@drawable/menu_home"
+        android:title="@string/papoHomeTxt" />
+    <item
+        android:id="@+id/menuIoT"
+        android:icon="@drawable/icon_robot"
+        android:title="@string/papoIotTxt" />
+    <item
+        android:id="@+id/menuAI"
+        android:icon="@drawable/baseline_other_houses_24"
+        android:title="@string/papoAiTxt" />
+    <item
+        android:id="@+id/menuOther"
+        android:icon="@drawable/baseline_other_houses_24"
+        android:title="@string/book_indexTxt" />
+</menu>

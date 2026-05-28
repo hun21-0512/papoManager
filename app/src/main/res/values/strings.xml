@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">papoManager</string>
+
+    <!-- 설정 -->
+    <string name="settingTxt">설정</string>
+
+    <!-- Menu -->
+    <string name="papoHomeTxt">생활환경</string>
+
+    <!-- papoIoT -->
+    <string name="papoIotTxt">papo IoT</string>
+    <string name="piot_deviceT1">모션감지</string>
+    <string name="piot_deviceT2">USB전원</string>
+
+    <!-- 제품추가 메뉴 -->
+    <string name="product_addTxt">제품추가</string>
+    <string name="piot_regitTxt">제품등록</string>
+    <string name="piot_search">제품검색</string>
+    <string name="product_nameTxt">제품별명</string>
+    <string name="product_type">제품유형</string>
+    <string name="product_port">포트번호</string>
+    <string name="product_wifi">제품 wifi연결</string>
+    <string name="piot_nodevice">선택가능한 목록이 없습니다</string>
+
+    <!-- wifi 연결 -->
+    <string name="wifi_connectTxt">wifi 연결</string>
+    <string name="wifi_ssidTxt">ssid</string>
+    <string name="wifi_pwTxt">비밀번호</string>
+
+    <!-- 메뉴 -->
+    <string name="device_ALLtxt">모든기기</string>
+    <string name="piot_schedule">스케줄</string>
+
+    <!-- 네트워크 모드 -->
+    <string name="netInt">내부 Net</string>
+    <string name="netExt">외부 Net</string>
+    <string name="netExt_loadtxt">외부 IP 불러오기</string>
+    <string name="netExt_settingTxt">외부 IP설정</string>
+    <string name="netExt_RegitTxt">등록하기</string>
+    <string name="netExt_RegitMsg">등록 되었습니다</string>
+
+    <!-- 꼬꼬마철학자 -->
+    <string name="papoAiTxt">papo AI</string>
+    <string name="papoCuriouslyTxt">꼬꼬마철학자</string>
+    <string name="papoStockTxt">재고관리</string>
+    <string name="papoPlayTxt">play station</string>
+
+    <!-- items -->
+    <string name="sub_weatherTxt">날씨</string>
+    <string name="sub_circulationTxt">환기</string>
+    <string name="sub_cleaningTxt">청결</string>
+    <string name="sub_moodlampTxt">무드등</string>
+    <string name="sub_bgmTxt">배경음악</string>
+    <string name="sub_scentTxt">방향</string>
+    <string name="sub_malInfection">병충해 (UV)</string>
+    <string name="sub_batteryTxt">전력</string>    
+    <string name="sub_tempMoistMonitoringTxt">온습도 모니터링</string>
+    <string name="sub_microDustTxt">미세먼지</string>
+
+    <!-- 환기-popup02 -->
+    <string name="popup_circulationTxt1">창문열기</string>
+    <string name="popup_circulationTxt2">환풍기작동</string>
+    <string name="popup_circulationTxt3">서큐레이터작동</string>
+    <string name="popup_circulationTxt4">더보기</string>
+
+    <!-- book main-Index -->
+    <string name="book_indexTxt">papo매니저</string>
+
+    <!-- book menu01 -->
+    <string name="book_menu01Txt">IoT 제어센터</string>
+
+    <!-- book menu01 - A -->
+    <string name="book_index01a">온도</string>
+    <string name="book_index01a_T1">냉방</string>
+    <string name="book_index01a_T1a">선풍기</string>
+    <string name="book_index01a_T1b">에어컨</string>
+    <string name="book_index01a_T2">난방</string>
+    <string name="book_index01a_T2a">전기히터</string>
+    <string name="book_index01a_T2b">보일러</string>
+
+
+    <string name="book_index01b">습도</string>
+    <string name="book_index01b_T1">가습기</string>
+    <string name="book_index01b_T2">제습기</string>
+
+    <string name="book_index01c">전력</string>
+    <string name="book_index01c_T1a">플러그</string>
+    <string name="book_index01c_T1b">보조배터리</string>
+    <string name="book_index01c_T1c">건전지</string>
+
+
+    <string name="book_index01d">무드등</string>
+    <string name="book_index01e">공기청정</string>
+    <string name="book_index01f">병충해</string>
+
+    <!-- book menu02 -->
+    <string name="book_menu02Txt">브런치 Time</string>
+    <string name="book_index02a">간식Box</string>
+
+    <!-- book menu02 - B -->
+    <string name="book_index02b">찻장</string>
+    <string name="book_index02a_Ta1">둥글래차</string>
+    <string name="book_index02a_Ta2">녹차</string>
+    <string name="book_index02a_Ta3">보리차</string>
+    <string name="book_index02a_Ta4">커피</string>
+    <string name="book_index02a_Ta5">매실청</string>
+    <string name="book_index02a_Ta6">레몬청</string>
+    <string name="book_index02a_Ta7">사이다</string>
+    <string name="book_index02a_Ta8">스파클링</string>
+    <string name="book_index02a_Ta9">코코아</string>
+    <string name="book_index02a_Ta10">율무차</string>
+    <string name="book_index02a_Ta11">유자차</string>
+    <string name="book_index02a_Ta12">제빙기</string>
+
+    <!-- book itemList -->
+    <string name="book_itemList01">-</string>
+    <string name="book_itemList01M">-</string>
+    <string name="book_itemList02">-</string>
+    <string name="book_itemList02M">-</string>
+    <string name="book_itemList03">-</string>
+    <string name="book_itemList03M">-</string>
+    <string name="book_itemList04">-</string>
+    <string name="book_itemList04M">-</string>
+    <string name="book_itemList05">-</string>
+    <string name="book_itemList05M">-</string>
+    <string name="book_itemList06">레몬에이드</string>
+    <string name="book_itemList06M"></string>
+    <string name="book_itemList07">-</string>
+    <string name="book_itemList07M">-</string>
+    <string name="book_itemList08">-</string>
+    <string name="book_itemList08M">-</string>
+    <string name="book_itemList09">초콜릿?</string>
+    <string name="book_itemList09M"></string>
+    <string name="book_itemList10">-</string>
+    <string name="book_itemList10M">-</string>
+    <string name="book_itemList11">-</string>
+    <string name="book_itemList11M">-</string>
+    <string name="book_itemList12">얼음</string>
+    <string name="book_itemList12M"></string>
+
+    <string name="book_index02c">주전부리</string>
+    <string name="book_index02d">음료냉장고</string>
+
+    <!-- book menu03 -->
+    <string name="book_menu03Txt">주방</string>
+    <string name="book_index03a">냉장고</string>
+    <string name="book_index03b">식량곳간</string>
+    <string name="book_index03c">주방비품</string>
+    <string name="book_index03d">그릇정리</string>
+    <string name="book_index03e">그릇관리</string>
+
+    <string name="book_menu04Txt">의류관리</string>
+    <string name="book_index04a">의류세탁</string>
+    <string name="book_index04b">의류건조</string>
+    <string name="book_index04c">세탁비품</string>
+    <string name="book_index04d">스타일링</string>
+    <string name="book_index04e">옷장/서랍</string>
+    <string name="book_index04f">의류shop</string>
+
+    <string name="book_menu05Txt">서재</string>
+    <string name="book_index05a">웹툰</string>
+    <string name="book_index05b">시집</string>
+    <string name="book_index05c">영상</string>
+    <string name="book_index05d">음악</string>
+    <string name="book_index05e">문구</string>
+    <string name="book_index05f">사진첩</string>
+
+
+    <string name="book_menu06Txt">비품</string>
+
+    <!-- 기타 -->
+    <string name="closeTxt">닫기</string>
+    <string name="etcTxt">기타</string>
+    <string name="underDev">미구현기능</string>
+</resources>

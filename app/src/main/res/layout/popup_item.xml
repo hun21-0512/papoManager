@@ -1,0 +1,42 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/itemTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        android:text="무엇이 나올까요?\n두근두근"/>
+    <ImageView
+        android:id="@+id/iconImg"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp" />
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"/>
+    <android.widget.Button
+        android:id="@+id/closeBtn"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/font_nanum"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="@string/closeTxt"
+        android:background="@drawable/widget1"/>
+
+</LinearLayout>

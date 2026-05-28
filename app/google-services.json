@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "788898455589",
+    "project_id": "manager-notify",
+    "storage_bucket": "manager-notify.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788898455589:android:3f23647d195cbdb53bdfcc",
+        "android_client_info": {
+          "package_name": "papo.hun.papomanager"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqdiLiUABKbPkNnW3aDA4LIOPJ5Jp7EbI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
