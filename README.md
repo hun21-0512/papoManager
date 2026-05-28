@@ -1,4 +1,4 @@
-스마트홈과 IoT 관련된 개인프로젝트 (망함)
+스마트홈과 IoT 관련된 개인프로젝트
 
 <div align=center>
 	<img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Papo%20Project&fontSize=90" />
