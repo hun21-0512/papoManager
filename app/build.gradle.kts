@@ -35,7 +35,7 @@ android {
     }
 
     kotlinOptions {
-        jvmTarget = "17" // Kotlin도 Java 17과 호환되도록 설정
+        jvmTarget = "17"
     }
 
     buildFeatures {
@@ -58,17 +58,18 @@ dependencies {
 
     implementation ("com.google.android.gms:play-services-location:20.0.0")
     implementation(platform("com.google.firebase:firebase-bom:33.4.0"))
-    implementation ("com.google.firebase:firebase-messaging:17.3.4")
+    // 버전을 제거하여 BoM 버전을 따르도록 수정
+    implementation ("com.google.firebase:firebase-messaging")
     implementation("com.google.firebase:firebase-analytics")
     implementation("org.jetbrains.kotlin:kotlin-stdlib:1.9.0")
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.appcompat:appcompat:1.7.0")
 
-    implementation("androidx.appcompat:appcompat:1.7.0")
     implementation("com.google.android.material:material:1.12.0")
     implementation(libs.gridlayout)
     implementation(libs.firebase.auth.ktx)
     implementation(libs.firebase.firestore.ktx)
+    
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.2.1")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.6.1")
